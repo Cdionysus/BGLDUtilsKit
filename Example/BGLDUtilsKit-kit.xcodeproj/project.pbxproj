@@ -37,8 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		043EB07B1150E457E01FC205 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		2C5C533E910BC085E496883B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		043EB07B1150E457E01FC205 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		2C5C533E910BC085E496883B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		3ECEC7A79180C7BA9F33BC3D /* Pods-BGLDUtilsKit-kit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BGLDUtilsKit-kit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-BGLDUtilsKit-kit_Tests/Pods-BGLDUtilsKit-kit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		3FBBADA0F3D90D0BB69E409F /* Pods_BGLDUtilsKit_kit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BGLDUtilsKit_kit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* BGLDUtilsKit-kit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BGLDUtilsKit-kit_Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -66,7 +66,7 @@
 		C7E228A441F768BEC169851A /* Pods-BGLDUtilsKit-kit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BGLDUtilsKit-kit_Example.debug.xcconfig"; path = "Target Support Files/Pods-BGLDUtilsKit-kit_Example/Pods-BGLDUtilsKit-kit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C9E6A1DEBE12CD452F55714F /* Pods-BGLDUtilsKit-kit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BGLDUtilsKit-kit_Example.release.xcconfig"; path = "Target Support Files/Pods-BGLDUtilsKit-kit_Example/Pods-BGLDUtilsKit-kit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E6531EE9D47CF075E65657F9 /* Pods_BGLDUtilsKit_kit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BGLDUtilsKit_kit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E941B303A882ECCB9B11E130 /* BGLDUtilsKit-kit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = "BGLDUtilsKit-kit.podspec"; path = "../BGLDUtilsKit-kit.podspec"; sourceTree = "<group>"; };
+		E941B303A882ECCB9B11E130 /* BGLDUtilsKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BGLDUtilsKit.podspec; path = ../BGLDUtilsKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,6 @@
 				3ECEC7A79180C7BA9F33BC3D /* Pods-BGLDUtilsKit-kit_Tests.debug.xcconfig */,
 				A7ACB75C23E737832CA739A9 /* Pods-BGLDUtilsKit-kit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -190,7 +189,7 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				E941B303A882ECCB9B11E130 /* BGLDUtilsKit-kit.podspec */,
+				E941B303A882ECCB9B11E130 /* BGLDUtilsKit.podspec */,
 				043EB07B1150E457E01FC205 /* README.md */,
 				2C5C533E910BC085E496883B /* LICENSE */,
 			);
@@ -300,15 +299,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-BGLDUtilsKit-kit_Example-checkManifestLockResult.txt",
 			);
@@ -322,15 +317,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-BGLDUtilsKit-kit_Example/Pods-BGLDUtilsKit-kit_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/BGLDUtilsKit-kit/BGLDUtilsKit_kit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BGLDUtilsKit_kit.framework",
 			);
@@ -344,15 +335,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-BGLDUtilsKit-kit_Tests-checkManifestLockResult.txt",
 			);

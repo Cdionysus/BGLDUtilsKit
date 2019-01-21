@@ -1,0 +1,6 @@
+framework module BGLDUtilsKit_kit {
+  umbrella header "BGLDUtilsKit-kit-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - BGLDUtilsKit-kit (0.1.0)
+
+DEPENDENCIES:
+  - BGLDUtilsKit-kit (from `../`)
+
+EXTERNAL SOURCES:
+  BGLDUtilsKit-kit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BGLDUtilsKit-kit: 04f35b4965718b32334698253ab8ce8386622798
+
+PODFILE CHECKSUM: 0be8e0cc345fa838fdb46424ebf92dddf92a9b7f
+
+COCOAPODS: 1.6.0.beta.2
